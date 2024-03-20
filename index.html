@@ -11,12 +11,15 @@
     <div class="wrapper-container">
 
         <div class="sign-up-image">
-            <!-- <img src="./resources/images/isabella-juskova--XwQFmuiMts-unsplash.jpg" alt="A beautiful camel sitting in dessert of Egypt"> -->
+            <img src="./resources/images/isabella-juskova--XwQFmuiMts-unsplash.jpg" alt="A beautiful camel sitting in dessert of Egypt">
         </div>
 
         <div class="sign-up-form">
-            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started</p>
-            <p>You know you want to!!</p>
+
+            <div class="heading_text">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started</p>
+                <p>You know you want to!!</p>
+            </div>
 
             <div class="form-wrapper">
                 <p>Let's do this!</p>
@@ -32,8 +35,22 @@
                 <p class="input-contact">
                     <label for="email">EMAIL</label>
                     <input type="email" id="email" name="email">
+
+                    <label for="phone-number">PHONE NUMBER</label>
+                    <input type="tel" id="phone-number" name="phone_number">
                 </p>
 
+                <p>
+                    <label for="password">PASSWORD<span aria-label="required">*</span></label>
+                    <input type="password" id="password" name="password">
+
+                    <label for="confirm-password">CONFIRM PASSWORD<span aria-label="required">*</span></label>
+                    <input type="password" id="confirm-password" name="password">
+                </p>
+
+                <button type="submit">Create Account</button>
+
+                <p>Already have an account? <span class="touch-up">Log in</span></p>
 
 
 
