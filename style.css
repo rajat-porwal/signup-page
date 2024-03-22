@@ -127,9 +127,10 @@ form{
 }
 
 .form-input{
-    width: 500px;
+    width: 100%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     /* flex-wrap: wrap; */
     justify-content: space-between;
     background-color: #ebe6e1;
@@ -209,6 +210,7 @@ button + p {
 label{
     font-family: inherit;
     font-size: small;
+    font-weight: 500;
 }
 
 .touch-up{
