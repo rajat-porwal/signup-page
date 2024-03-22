@@ -91,6 +91,10 @@ a{
     overflow: scroll;
 }
 
+.sign-up-form::-webkit-scrollbar {
+    display: none;
+  }
+
 /* .heading_text, */
 form{
     flex: 1;
