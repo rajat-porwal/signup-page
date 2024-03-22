@@ -16,9 +16,30 @@
     /* align-items: stretch; */
 }
 
+.image-container{
+    position: relative;
+}
+
 img{
     height: 100vh;
     max-width: 50vw;
+}
+
+.image-text{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    font-size: small;
+}
+
+.image-text span{
+    text-decoration: underline;
+}
+
+a{
+    color: #6b159c;
 }
 
 .sign-up-form{
@@ -53,6 +74,7 @@ form{
     padding-bottom: 25px;
     background-color: #ebe6e1;
     padding-left: 55px;
+    box-shadow: 0px 0px 3px #000000;
    
 }
 
@@ -103,7 +125,6 @@ button{
     width: 160px;
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
     appearance: none;
 
 }
