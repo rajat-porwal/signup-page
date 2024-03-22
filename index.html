@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -22,40 +25,60 @@
             </div>
 
             <div class="form-wrapper">
+
                 <p>Let's do this!</p>
 
-                <p class="input-name">
-                    <label for="first-name">FIRST NAME</label>
-                    <input type="text" id="first-name" name="first_name">
+                <div class="form">
 
-                    <label for="last-name">LAST NAME</label>
-                    <input type="text" id="last-name" name="last_name">
-                </p>
+                    <div class="input-name">
+                        
+                        <div>
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" id="first-name" name="first_name" placeholder="Rajat">
+                        </div>
 
-                <p class="input-contact">
-                    <label for="email">EMAIL</label>
-                    <input type="email" id="email" name="email">
+                        <div>
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email" placeholder="joe@someone.com">
+                        </div>
 
-                    <label for="phone-number">PHONE NUMBER</label>
-                    <input type="tel" id="phone-number" name="phone_number">
-                </p>
+                        <div>
+                            <label for="password">PASSWORD<span aria-label="required">*</span></label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                    
+                    </div>
+                    <div class="input-contact">
+                    
+                        <div>
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" id="last-name" name="last_name" placeholder="Porwal">
+                        </div>
 
-                <p>
-                    <label for="password">PASSWORD<span aria-label="required">*</span></label>
-                    <input type="password" id="password" name="password">
+                        <div>
+                            <label for="phone-number">PHONE NUMBER</label>
+                            <input type="tel" id="phone-number" name="phone_number">
+                        </div>
 
-                    <label for="confirm-password">CONFIRM PASSWORD<span aria-label="required">*</span></label>
-                    <input type="password" id="confirm-password" name="password">
-                </p>
+                        <div>
+                            <label for="confirm-password">CONFIRM PASSWORD<span aria-label="required">*</span></label>
+                            <input type="password" id="confirm-password" name="password" required>
+                        </div>
+                        
+                    </div>
+                </div>
 
-                <button type="submit">Create Account</button>
+                <!-- <p class="input-password">
+                    
 
-                <p>Already have an account? <span class="touch-up">Log in</span></p>
-
-
-
+                    
+                </p> -->
             </div>
 
+            <div>
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <span class="touch-up">Log in</span></p>
+            </div>
         </div>
 
     </div>
