@@ -10,6 +10,10 @@
     font-family: "Open Sans", sans-serif;
 }
 
+body{
+    padding-bottom: 60px;
+}
+
 .wrapper-container{
     height: 100%;
     display: flex;
