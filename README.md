@@ -1,4 +1,5 @@
 # Sign-up Form
+[demo](https://rajat-porwal.github.io/signup-page/)
 <img alt="demo SS" src="./resources/images/2024-05-31 16_46_06-C__Users_Moby_Dick_Documents_Rainmeter_Skins_Monterey_Extras_Unlock_Unlock.ini.png"/>
 
 
@@ -50,3 +51,8 @@
 
 * Inspiration by [The Odin Project](https://www.theodinproject.com/)
 
+## Author
+
+[Rajat Porwal](https://github.com/rajat-porwal) - [LinkedIn](https://www.linkedin.com/in/rajatporwal/) - rajatporwal@protonmail.com
+
+<p align="right">(<a href="#top">back to top</a>)<
