@@ -1,4 +1,9 @@
-# Sign-up Form ([demo](https://rajat-porwal.github.io/signup-page/))
+# Sign-up Form
+
+<h2>🚀 Demo</h2>
+
+[https://rajat-porwal.github.io/signup-page/](https://rajat-porwal.github.io/signup-page/)
+
 
 <img alt="demo SS" src="./resources/images/2024-05-31 16_46_06-C__Users_Moby_Dick_Documents_Rainmeter_Skins_Monterey_Extras_Unlock_Unlock.ini.png"/>
 
